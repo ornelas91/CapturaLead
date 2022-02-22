@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 150px auto;
+}
+
+.descricao {
+    width: 500px;
+}
+
+.descricao h1 {
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.descricao p {
+    color: #FFF;
+}
+
+.formulario {
+    background: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1 {
+    margin: 35px auto;
+}
+
+.form input {
+    padding: 10px;
+    border: 1px solid;
+    width: 350px;
+    margin: 5px auto;
+    border-radius: 7px;
+}
+
+.btn {
+    background: rgb(206, 209, 8);
+    color: #FFF;
+    font-weight: bold;
+    font-size: 25px;
+}

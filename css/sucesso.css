@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+    height: 150px;
+    background: #FFF;
+    margin: 200px auto;
+    padding: 15px;
+    box-shadow: 1px 15px 40px rgb(65, 63, 63);
+    border-radius: 10px;
+}
+
+.container h1 {
+    margin-bottom: 15px;
+}
